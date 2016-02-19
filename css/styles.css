@@ -22,14 +22,6 @@ body {
 	padding-right: 10px;
 }
 
-.pad-bottom {
-	padding-bottom: 200px;
-}
-
-.pad-top {
-	padding-top: 200px;
-}
-
 .content-section {
 	display: block;
 	overflow: auto;
@@ -118,6 +110,111 @@ div#wait-more h3:first {
 
 #wait-more img {
 	margin-bottom: 30px;
+}
+
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  
+	.pad-bottom {
+		padding-bottom: 50px;
+	}
+
+	.pad-top {
+		padding-top: 50px;
+	}
+
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+  
+	.pad-bottom {
+		padding-bottom: 50px;
+	}
+
+	.pad-top {
+		padding-top: 50px;
+	}
+
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+  
+	.pad-bottom {
+		padding-bottom: 50px;
+	}
+
+	.pad-top {
+		padding-top: 50px;
+	}
+
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+  
+	.pad-bottom {
+		padding-bottom: 50px;
+	}
+
+	.pad-top {
+		padding-top: 50px;
+	}
+
+}
+
+/* #### iPhone 5 Portrait or Landscape #### */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+  
+	.pad-bottom {
+		padding-bottom: 50px;
+	}
+
+	.pad-top {
+		padding-top: 50px;
+	}
+
+}
+
+/* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3){
+  
+	.pad-bottom {
+		padding-bottom: 50px;
+	}
+
+	.pad-top {
+		padding-top: 50px;
+	}
+
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  
+	.pad-bottom {
+		padding-bottom: 50px;
+	}
+
+	.pad-top {
+		padding-top: 50px;
+	}
+
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px){
+  
+	.pad-bottom {
+		padding-bottom: 200px;
+	}
+
+	.pad-top {
+		padding-top: 200px;
+	}
+
 }
 
 
