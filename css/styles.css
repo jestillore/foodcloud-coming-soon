@@ -1,0 +1,121 @@
+
+@font-face {
+	font-family: 'proximanovalight';
+	src: url('../fonts/proximanovalight.eot');
+	src: local('proximanovalight'), url('../fonts/proximanovalight.woff') format('woff'), url('../fonts/proximanovalight.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_12950">Text with this font applied</p> */
+.fontsforweb_fontid_12950 {
+	font-family: 'proximanovalight' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
+
+body {
+	font-family: 'proximanovalight';
+}
+
+.content-info {
+	max-width: 768px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.pad-bottom {
+	padding-bottom: 200px;
+}
+
+.pad-top {
+	padding-top: 200px;
+}
+
+.content-section {
+	display: block;
+	overflow: auto;
+}
+
+.content-section img {
+	margin-top: 25px;
+}
+
+.background {
+	background-image: url(../img/background.png);
+	background-size: cover;
+	border-top: 2px dashed #cecece;
+	border-bottom: 2px dashed #cecece;
+
+	transform: skewY(3deg);
+	-o-transform: skewY(3deg);
+	-moz-transform: skewY(3deg);
+	-webkit-transform: skewY(3deg);
+}
+
+.background .content-info {
+	transform: skewY(-3deg);
+	-o-transform: skewY(-3deg);
+	-moz-transform: skewY(-3deg);
+	-webkit-transform: skewY(-3deg);
+}
+
+#logo img {
+	height: 215px;
+}
+
+#logo h1 {
+	color: #f17671;
+	margin-top: 50px;
+}
+
+#logo h2 {
+	margin-top: 0px;
+}
+
+
+/* webkit solution */
+::-webkit-input-placeholder { text-align: center; }
+/* mozilla solution */
+input:-moz-placeholder { text-align: center; }
+
+form#subscribe input#email {
+	border: 2px solid #333;
+	text-align: center;
+
+	padding: 18px;
+}
+
+form#subscribe input#submit {
+	margin-top: 10px;
+	background-color: #f34336;
+	color: #fff;
+	padding: 9px;
+}
+
+div#wait-more {
+	padding-top: 65px;
+}
+
+div#wait-more h3:first {
+	margin-top: -5px;
+}
+
+#food-lovers {
+	margin-top: 110px;
+}
+
+#subscription {
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+
+#wait-more h1 {
+	margin-bottom: 3px;
+}
+
+#wait-more h3 {
+	margin-top: 0px;
+}
+
+#wait-more img {
+	margin-bottom: 30px;
+}
